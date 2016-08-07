@@ -1,0 +1,16 @@
+library(d3heatmap)
+library(igraph)
+library(dplyr)
+library(reshape)
+library(networkD3)
+library(ggplot2)
+library(huge)
+library(glasso)
+library(scales)
+library(shiny)
+library(flare)
+library(ggm)
+# Config of the working directory
+if (computer.name == "JIDZIAK-L") 
+  url <- "C:/Users/jidziak/Desktop/PM"
+setwd(url)
